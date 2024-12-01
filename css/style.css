@@ -1,0 +1,184 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common CSS End */
+/* Header Part CSS Start */
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #000;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+/* Header Part CSS End */
+/* Banner Part CSS Start */
+#banner_part{
+    padding-top: 124px;
+    padding-bottom: 70px;
+}
+.banner_text h1{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
+.banner_text p{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner_text a{
+    margin-top: 36px;
+    padding: 15px 20px;
+    border-radius: 2px;
+    background: #FF6464;
+    color: #FFF;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner_img{
+    position: relative;
+}
+.banner_img .golla{
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    z-index: -333;
+}
+/* Banner Part CSS End */
+/* Blog Part CSS Start */
+#blog_part{
+    padding: 25px 0;
+    background: #EDF7FA;
+}
+.left_card_blog_text h4{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.left_card{
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    padding: 35px 60px;
+}
+.left_card h3{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+}
+.left_card h4{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.left_card p{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.right_blog h4{
+    color: #00A8CC;
+    text-align: right;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 26px;
+}
+/* Blog Part CSS End */
+/* Work Part CSS Start */
+#work_part{
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+.card_right_textt h3{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 26px;
+}
+.card_right_textt button{
+    border-radius: 16px;
+    background: #142850;
+    padding: 5px 10px;
+    color: #FFF;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+    margin-right: 20px;
+}
+.card_right_textt span{
+    color: #8695A4;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card_right_textt p{
+    color: #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 28px;
+}
+.line{
+    padding: 1px 0;
+    background: #E0E0E0;
+}
+/* Work Part CSS End */
+/* Footer Part CSS Start */
+#footer_part{
+    padding: 80px 0;
+}
+.icon{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.icon a i{
+    padding-left: 25px;
+    color: #21243D;
+}
+.footer_part_texttt p{
+    color: #21243D;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* Footer Part CSS End */
